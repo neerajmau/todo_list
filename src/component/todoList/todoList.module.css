@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    background: #61dafb;
+    background: #33841f;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
-    font-size: 1.2rem
+    font-size: 1rem
 }
 
 .inputbox input:focus {
