@@ -107,7 +107,7 @@ const TodoList = () => {
                     }}
                     className={style.label}
                   >
-                    Completed
+                    {e.compalition ? "Completed" : "Incomplete"}
                   </label>
                 </div>
               );
