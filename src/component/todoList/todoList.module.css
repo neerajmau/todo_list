@@ -1,0 +1,116 @@
+.container {
+    width: 100%;
+    background: #61dafb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden !important;
+}
+
+.todo_container {
+    background: #fff;
+    width: 32rem;
+    min-height: 10rem;
+    max-height: 36rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 8px 9px 6px -1px rgb(0 0 0 / 20%);
+    overflow: hidden;
+    /* position: absolute; */
+}
+
+.heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0.5rem 0px;
+}
+
+.inputbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 2.5rem;
+}
+
+.inputbox input[type=text] {
+    width: 17rem;
+    padding: 6.5px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: 1.2rem
+}
+
+.inputbox input:focus {
+    border-color: #9bbadb;
+    box-shadow: 0 0 7px #9bbadb;
+}
+
+.list {
+    margin: 5px 2.5rem;
+
+}
+
+.title_lable {
+    margin: 0px 2.5rem;
+}
+
+.list_cantainer {
+    max-height: 22rem;
+    overflow-y: auto
+}
+
+.list_header {
+    border-bottom: 1px solid gray;
+    /* border-top: 1px solid gray; */
+    height: 1.7rem;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_header div {
+    font-weight: 700;
+}
+
+.list_data {
+    padding: 0.2rem 0px;
+    border-bottom: 1px solid gray;
+    /* border-top: 1px solid gray; */
+    height: 2rem;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+    width: 17rem;
+    cursor: pointer;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.edit_title input[type="text"] {
+    outline: none;
+    border: none;
+    width: 16.7rem;
+    height: 1.7rem;
+    font-size: 1rem
+}
+
+.btn_clear {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0rem;
+}
+
+.title_lable {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0px 2.5rem;
+}
